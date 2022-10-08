@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-CDF official helm chart for [Tekton Pipelines](https://github.com/tektoncd/pipeline).
+Fork of the CDF official helm chart for [Tekton Pipelines](https://github.com/tektoncd/pipeline) to fix deprecation errors on k8s v1.25.
 
 ## Usage
 
