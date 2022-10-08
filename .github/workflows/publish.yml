@@ -11,5 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: helm/chart-releaser-action@v1.4.1
+        with:
+          config: cr.yaml
         env:
           CR_TOKEN: ${{ secrets.ACCESS_TOKEN }}
