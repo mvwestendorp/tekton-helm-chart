@@ -13,7 +13,7 @@ metadata:
     pipeline.tekton.dev/release: v0.32.4
     version: v0.32.4
   name: tekton-pipelines-controller
-  namespace: tekton-pipelines
+  namespace: {{ .Release.Namespace }}
 spec:
   replicas: 1
   selector:
