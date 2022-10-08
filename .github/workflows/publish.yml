@@ -11,8 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: helm/chart-releaser-action@v1.4.1
-        with:
-          charts_dir: charts
-          charts_repo: https://mvwestendorp.github.io/tekton-helm-chart
         env:
           CR_TOKEN: ${{ secrets.ACCESS_TOKEN }}
